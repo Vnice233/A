@@ -62,6 +62,14 @@ function Lose(){
     t[0]=3;
   }
 }
+function Re(){
+  t[0]=1;
+  for (i=1;i<=9;i++){
+  w="t"+i;
+  document.getElementById(w).style.background = "rgba(0, 0, 0, 0.5)";
+  t[i]=0;
+}
+}
 function T1() {
    word ="t";
    if ((t[1] == 0)&&(t[0]=1)){
@@ -73,7 +81,8 @@ function T1() {
      if(n!=9){
      while(1){
       r=Math.floor(Math.random()*9);
-      if((t[r] == 0)&&(t[0]==1))
+      if (t[0]==3) break;
+      if(t[r] == 0)
       {
       w="t"+r;
       document.getElementById(w).style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/O.png)"
@@ -96,7 +105,8 @@ function T2() {
     if(n!=9){
     while(1){
     r=Math.floor(Math.random()*9);
-     if((t[r]==0)&&(t[0]==1))
+    if (t[0]==3) break;
+     if(t[r]==0)
      {
      w="t"+r;
      document.getElementById(w).style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/O.png)"
@@ -119,11 +129,13 @@ function T3() {
     if(n!=9){
     while(1){
     r=Math.floor(Math.random()*9);
-     if((t[r]==0)&&(t[0]==1))
+    if (t[0]==3) break;
+     if(t[r]==0)
      {
      w="t"+r;
      document.getElementById(w).style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/O.png)"
-     t[r]=2;Lose(); 
+     t[r]=2;
+     Lose(); 
      ++n; 
      break; 
      } 
@@ -142,7 +154,8 @@ function T4() {
     if(n!=9){
     while(1){
     r=Math.floor(Math.random()*9);
-     if((t[r]==0)&&(t[0]==1))
+    if (t[0]==3) break;
+     if(t[r]==0)
      {
      w="t"+r;
      document.getElementById(w).style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/O.png)"
@@ -166,7 +179,8 @@ function T5() {
     if(n!=9){
     while(1){
     r=Math.floor(Math.random()*9);
-     if((t[r]==0)&&(t[0]==1))
+     if (t[0]==3) break;
+     if(t[r]==0)
      {
      w="t"+r;
      document.getElementById(w).style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/O.png)"
@@ -190,7 +204,8 @@ function T6() {
     if(n!=9){
     while(1){
     r=Math.floor(Math.random()*9);
-     if((t[r]==0)&&(t[0]==1))
+    if (t[0]==3) break;
+     if(t[r]==0)
      {
      w="t"+r;
      document.getElementById(w).style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/O.png)"
@@ -214,7 +229,8 @@ function T7() {
     if(n!=9){
     while(1){
     r=Math.floor(Math.random()*9);
-     if((t[r]==0)&&(t[0]==1))
+    if (t[0]==3) break;
+     if(t[r]==0)
      {
      w="t"+r;
      document.getElementById(w).style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/O.png)"
@@ -237,7 +253,8 @@ function T8() {
     if(n!=9){
     while(1){
     r=Math.floor(Math.random()*9);
-     if((t[r]==0)&&(t[0]==1))
+    if (t[0]==3) break;
+     if(t[r]==0)
      {
      w="t"+r;
      document.getElementById(w).style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/O.png)"
@@ -260,7 +277,8 @@ function T9() {
     if(n!=9){
     while(1){
     r=Math.floor(Math.random()*9);
-     if((t[r]==0)&&(t[0]==1))
+    if (t[0]==3) break;
+     if(t[r]==0)
      {
      w="t"+r;
      document.getElementById(w).style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/O.png)"
