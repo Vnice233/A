@@ -62,14 +62,6 @@ function Lose(){
     t[0]=3;
   }
 }
-function Re(){
-  t[0]=1;
-  for (i=1;i<=9;i++){
-  w="t"+i;
-  document.getElementById(w).style.background = "rgba(0, 0, 0, 0.5)";
-  t[i]=0;
-}
-}
 function T1() {
    word ="t";
    if ((t[1] == 0)&&(t[0]=1)){
