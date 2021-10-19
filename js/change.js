@@ -72,7 +72,7 @@ function Re(){
 }
 function T1() {
    word ="t";
-   if ((t[1] == 0)&&(t[0]=1)){
+   if ((t[1] == 0)&&(t[0]==1)){
      document.getElementById("t1").style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/X.png)";
      t[1]=1;
      Win();
@@ -96,7 +96,7 @@ function T1() {
 }
 function T2() {
   word ="t";
-  if ((t[2] == 0)&&(t[0]=1)){
+  if ((t[2] == 0)&&(t[0]==1)){
     document.getElementById("t2").style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/X.png)";
     t[2]=1;
     ++n;
@@ -120,7 +120,7 @@ function T2() {
 }
 function T3() {
   word ="t";
-  if ((t[3] == 0)&&(t[0]=1)) {
+  if ((t[3] == 0)&&(t[0]==1)) {
     document.getElementById("t3").style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/X.png)";
     t[3]=1;
     ++n;
@@ -145,7 +145,7 @@ function T3() {
 }
 function T4() {
   word ="t";
-  if ((t[4] == 0)&&(t[0]=1)) {
+  if ((t[4] == 0)&&(t[0]==1)) {
     document.getElementById("t4").style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/X.png)";
     t[4]=1;
     ++n;
@@ -170,7 +170,7 @@ function T4() {
 function T5() {
 
   word ="t";
-  if ((t[5] == 0)&&(t[0]=1)) {
+  if ((t[5] == 0)&&(t[0]==1)) {
     document.getElementById("t5").style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/X.png)";
     t[5]=1;
     ++n;
@@ -195,7 +195,7 @@ function T5() {
 function T6() {
 
   word ="t";
-  if ((t[6] == 0)&&(t[0]=1)) {
+  if ((t[6] == 0)&&(t[0]==1)) {
     document.getElementById("t6").style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/X.png)";
     t[6]=1;
     ++n;
@@ -220,7 +220,7 @@ function T6() {
 function T7() {
 
   word ="t";
-  if ((t[7] == 0)&&(t[0]=1)) {
+  if ((t[7] == 0)&&(t[0]==1)) {
     document.getElementById("t7").style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/X.png)";
     t[7]=1;
     ++n;
@@ -245,7 +245,7 @@ function T7() {
 function T8() {
 
   word ="t";
-  if ((t[8] == 0)&&(t[0]=1)) {
+  if ((t[8] == 0)&&(t[0]==1)) {
     document.getElementById("t8").style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/X.png)";
     t[8]=1;
     ++n;
@@ -269,7 +269,7 @@ function T8() {
 function T9() {
 
   word ="t";
-  if ((t[9] == 0)&&(t[0]=1)) {
+  if ((t[9] == 0)&&(t[0]==1)) {
     document.getElementById("t9").style.background ="url(https://cdn.jsdelivr.net/gh/Vnice233/Vnice.github.io/img/X.png)";
     t[9]=1;
     ++n;
